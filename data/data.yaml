@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['disc']
+
+roboflow:
+  workspace: frisbee-cv
+  project: frisbee-cv
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/frisbee-cv/frisbee-cv/dataset/2
