@@ -49,7 +49,17 @@ Below is an example of how the Flying Plate Tracker performs on a real-world fra
     <td><img src="assets/annotated_image.jpg" alt="Prediction Image"></td>
   </tr>
 </table>
+<table>
+  <tr>
+    <th>Original</th>
+    <th>Prediction</th>
+  </tr>
+  <tr>
+    <td><img src="assets/test_img_3.jpg" alt="Original Image"></td>
+    <td><img src="assets/test_image_3_annotated.jpg" alt="Prediction Image"></td>
+  </tr>
+</table>
 
 ### Frame by frame tracking
 
-![Demo GIF](assets/stitch.gif)
+![Demo GIF](assets/yolo26s_test_output.gif)
