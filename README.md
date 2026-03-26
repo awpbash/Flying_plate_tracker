@@ -10,6 +10,7 @@ A computer vision project that aim to train a YOLO based CV model to track flyin
    ```bash
    git clone https://github.com/awpbash/Flying_plate_tracker.git
    cd Flying_plate_tracker
+   ```
 
 2. Create and activate a virtual environment:
     ```bash
@@ -56,10 +57,15 @@ Below is an example of how the Flying Plate Tracker performs on a real-world fra
   </tr>
   <tr>
     <td><img src="assets/test_img_3.jpg" alt="Original Image"></td>
-    <td><img src="assets/test_image_3_annotated.jpg" alt="Prediction Image"></td>
+    <td><img src="assets/test_img_3_annotated.jpg" alt="Prediction Image"></td>
   </tr>
 </table>
 
 ### Frame by frame tracking
 
 ![Demo GIF](assets/yolo26s_test_output.gif)
+
+
+## Improvements
+1. Need more angles of the frisbee, model cannot detect when a frisbee is perfectly flat or when it is slightly tilted at angles of about 0 to 30 degrees.
+
